@@ -60,7 +60,7 @@ class Student
   
   def update
     sql = "UPDATE students SET name = ?, grade = ?, id = ?"
-    
+    DB[:conn].execute(sql)
   
   def self.create_table
     sql = <<-SQL
