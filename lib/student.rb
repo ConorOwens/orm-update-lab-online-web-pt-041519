@@ -59,7 +59,8 @@ class Student
   end
   
   def update
-    sql = 
+    sql = "UPDATE students SET name = ?, grade = ?, id = ?"
+    
   
   def self.create_table
     sql = <<-SQL
