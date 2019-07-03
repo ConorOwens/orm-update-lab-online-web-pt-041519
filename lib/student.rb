@@ -59,6 +59,7 @@ class Student
   end
   
   def update
+    sql = 
   
   def self.create_table
     sql = <<-SQL
